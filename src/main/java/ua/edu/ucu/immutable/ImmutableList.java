@@ -1,4 +1,4 @@
-package immutable;
+package ua.edu.ucu.immutable;
 
 public interface ImmutableList {
 

@@ -1,6 +1,6 @@
-package queue;
+package ua.edu.ucu.queue;
 
-import immutable.ImmutableLinkedList;
+import ua.edu.ucu.immutable.ImmutableLinkedList;
 
 public class Queue {
     private ImmutableLinkedList queue = new ImmutableLinkedList();

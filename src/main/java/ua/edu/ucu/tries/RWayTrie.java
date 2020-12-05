@@ -1,7 +1,7 @@
 package ua.edu.ucu.tries;
 
 
-import queue.Queue;
+import ua.edu.ucu.queue.Queue;
 
 import java.util.ArrayList;
 
