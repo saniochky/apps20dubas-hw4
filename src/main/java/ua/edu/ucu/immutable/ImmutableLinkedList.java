@@ -13,12 +13,12 @@ public class ImmutableLinkedList implements ImmutableList {
         @Getter @Setter
         private Node next;
 
-        public Node() {
+        Node() {
             this.setData(null);
             this.setNext(null);
         }
 
-        public Node(Object data) {
+        Node(Object data) {
             this.setData(data);
             this.setNext(null);
         }

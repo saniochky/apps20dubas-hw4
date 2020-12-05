@@ -4,7 +4,6 @@ import ua.edu.ucu.tries.Trie;
 import ua.edu.ucu.tries.Tuple;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 
 /**
@@ -63,7 +62,7 @@ public class PrefixMatches {
             }
 
             arrList.sort(Comparator.comparingInt(String::length));
-            int k_copy = 0;
+            int kCopy = 0;
             int lastWordSize = 2;
 
             if (arrList.size() != 0) {
@@ -73,10 +72,10 @@ public class PrefixMatches {
             for (String word: arrList) {
                 if (lastWordSize != word.length()) {
                     lastWordSize = word.length();
-                    k_copy++;
+                    kCopy++;
                 }
 
-                if (k_copy == k) {
+                if (kCopy == k) {
                     break;
                 }
 
